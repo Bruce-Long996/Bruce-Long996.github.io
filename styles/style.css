@@ -1,0 +1,58 @@
+
+/* p {
+    width: 500px;
+    border: 1px solid black;
+}
+
+p, li, hi {
+    color: red;
+} */
+
+html {
+    /* px 表示“像素（pixels）”：基础字号为 10 像素 */
+    font-size: 10px;
+    /* Google fonts 输出的 CSS */
+    font-family: 'Open Sans', sans-serif;
+    background-color: #00539F;
+}
+
+body {
+    /* 强制页面永远保持 600 像素宽 */
+    width: 600px;
+    /* margin 或 padding 设置属性值时，第一个代表元素的上下方，第二个代表左右。或者输入一、三、四个值都行 */
+    margin: 0 auto;
+    background-color: #FF9500;
+    /* 内边距：上、左、下、右 */
+    padding: 0 20px 20px 20px;
+    /* 5像素的黑色实线边框 */
+    border: 5px solid black;
+}
+
+h1 {
+    font-size: 60px;
+    /* 文本居中显示 */
+    text-align: center;
+    /* 去除浏览器自带的间隙 */
+    margin: 0;
+    padding: 20px, 0;
+    color: #00539F;
+    /*
+        第一个值设置水平偏移值 —— 即阴影右移的像素数（负值左移）。
+        第二个值设置垂直偏移值 —— 即阴影下移的像素数（负值上移）。
+        第三个值设置阴影的模糊半径 —— 值越大产生的阴影越模糊。
+        第四个值设置阴影的基色。 
+     */
+    text-shadow: 3px 3px 1px black;
+}
+
+img {
+    /* img 是内联元素，可以赋予其块级行为，这样可设置如：外边距等属性 */
+    display: block;
+    margin: 0 auto;
+}
+
+p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
